@@ -1,7 +1,7 @@
 import { Component, h, State } from '@stencil/core';
 import { Team, TeamsList } from '../../components';
-import { Week } from '../ftb-store/interfaces/week.interface';
-import { Standing } from '../ftb-store/interfaces/standing.interface';
+import { Week } from '../ftb-app/interfaces/week.interface';
+import { Standing } from '../ftb-app/interfaces/standing.interface';
 
 @Component({
   tag: 'ftb-standings',
@@ -10,7 +10,7 @@ import { Standing } from '../ftb-store/interfaces/standing.interface';
 })
 export class FtbStandings {
 
-  private store: any = document.querySelector('ftb-store');
+  private store: any = document.querySelector('ftb-app');
 
   @State() teams: Array<Standing> = [];
   @State() view: string = 'division';

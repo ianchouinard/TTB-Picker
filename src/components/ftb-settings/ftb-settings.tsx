@@ -6,7 +6,7 @@ import { Component, h, State, Element } from '@stencil/core';
 })
 export class FtbSettings {
 
-  private store: any = document.querySelector('ftb-store');
+  private store: any = document.querySelector('ftb-app');
 
   @Element() root: HTMLElement;
   @State() teamData: string;

@@ -1,6 +1,6 @@
 import { Component, h, Prop, State, Element } from '@stencil/core';
 import { Match } from '../../components';
-import { TeamsList } from '../ftb-store/interfaces/teams-list.interface';
+import { TeamsList } from '../ftb-app/interfaces/teams-list.interface';
 
 @Component({
   tag: 'ftb-week',
@@ -14,7 +14,7 @@ export class FtbWeek {
   @Prop() teams: TeamsList;
   @State() matches: Array<Match> = [];
   @State() ready: boolean;
-  private store: any = document.querySelector('ftb-store');
+  private store: any = document.querySelector('ftb-app');
   private isUpdating: boolean;
 
   componentWillLoad() {

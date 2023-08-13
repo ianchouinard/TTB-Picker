@@ -5,15 +5,26 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { Standing } from "./components/ftb-store/interfaces/standing.interface";
-import { Team } from "./components/ftb-store/interfaces/team.interface";
-import { Match } from "./components/ftb-store/interfaces/match.interface";
-import { TeamsList } from "./components/ftb-store/interfaces/teams-list.interface";
-export { Standing } from "./components/ftb-store/interfaces/standing.interface";
-export { Team } from "./components/ftb-store/interfaces/team.interface";
-export { Match } from "./components/ftb-store/interfaces/match.interface";
-export { TeamsList } from "./components/ftb-store/interfaces/teams-list.interface";
+import { Team } from "./components/ftb-app/interfaces/team.interface";
+import { Match } from "./components/ftb-app/interfaces/match.interface";
+import { Standing } from "./components/ftb-app/interfaces/standing.interface";
+import { TeamsList } from "./components/ftb-app/interfaces/teams-list.interface";
+export { Team } from "./components/ftb-app/interfaces/team.interface";
+export { Match } from "./components/ftb-app/interfaces/match.interface";
+export { Standing } from "./components/ftb-app/interfaces/standing.interface";
+export { TeamsList } from "./components/ftb-app/interfaces/teams-list.interface";
 export namespace Components {
+    interface FtbApp {
+        "getScheduleAndTeams": () => Promise<any>;
+        "getTeamByCode": (teamCode: string) => Promise<Team>;
+        "getWeekMatches": (week: string) => Promise<Array<Match>>;
+        "manualDataUpdate": (newTeams: any, newSchedule: any) => Promise<void>;
+        "reset": () => Promise<void>;
+        "setView": (view: string) => Promise<void>;
+        "updateMatch": (week: string, winningTeamCode: string) => Promise<any>;
+    }
+    interface FtbInfo {
+    }
     interface FtbMatch {
     }
     interface FtbScheduleLeague {
@@ -25,16 +36,6 @@ export namespace Components {
     interface FtbSettings {
     }
     interface FtbStandings {
-    }
-    interface FtbStore {
-        "doDummyRun": () => Promise<void>;
-        "getScheduleAndTeams": () => Promise<any>;
-        "getTeamByCode": (teamCode: string) => Promise<Team>;
-        "getWeekMatches": (week: string) => Promise<Array<Match>>;
-        "manualDataUpdate": (newTeams: any, newSchedule: any) => Promise<void>;
-        "reset": () => Promise<void>;
-        "setView": (view: string) => Promise<void>;
-        "updateMatch": (week: string, winningTeamCode: string) => Promise<any>;
     }
     interface FtbTeam {
     }
@@ -58,6 +59,18 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLFtbAppElement extends Components.FtbApp, HTMLStencilElement {
+    }
+    var HTMLFtbAppElement: {
+        prototype: HTMLFtbAppElement;
+        new (): HTMLFtbAppElement;
+    };
+    interface HTMLFtbInfoElement extends Components.FtbInfo, HTMLStencilElement {
+    }
+    var HTMLFtbInfoElement: {
+        prototype: HTMLFtbInfoElement;
+        new (): HTMLFtbInfoElement;
+    };
     interface HTMLFtbMatchElement extends Components.FtbMatch, HTMLStencilElement {
     }
     var HTMLFtbMatchElement: {
@@ -88,12 +101,6 @@ declare global {
         prototype: HTMLFtbStandingsElement;
         new (): HTMLFtbStandingsElement;
     };
-    interface HTMLFtbStoreElement extends Components.FtbStore, HTMLStencilElement {
-    }
-    var HTMLFtbStoreElement: {
-        prototype: HTMLFtbStoreElement;
-        new (): HTMLFtbStoreElement;
-    };
     interface HTMLFtbTeamElement extends Components.FtbTeam, HTMLStencilElement {
     }
     var HTMLFtbTeamElement: {
@@ -113,18 +120,23 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "ftb-app": HTMLFtbAppElement;
+        "ftb-info": HTMLFtbInfoElement;
         "ftb-match": HTMLFtbMatchElement;
         "ftb-schedule-league": HTMLFtbScheduleLeagueElement;
         "ftb-schedule-team": HTMLFtbScheduleTeamElement;
         "ftb-settings": HTMLFtbSettingsElement;
         "ftb-standings": HTMLFtbStandingsElement;
-        "ftb-store": HTMLFtbStoreElement;
         "ftb-team": HTMLFtbTeamElement;
         "ftb-week": HTMLFtbWeekElement;
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
+    interface FtbApp {
+    }
+    interface FtbInfo {
+    }
     interface FtbMatch {
     }
     interface FtbScheduleLeague {
@@ -136,8 +148,6 @@ declare namespace LocalJSX {
     interface FtbSettings {
     }
     interface FtbStandings {
-    }
-    interface FtbStore {
     }
     interface FtbTeam {
     }
@@ -160,12 +170,13 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface IntrinsicElements {
+        "ftb-app": FtbApp;
+        "ftb-info": FtbInfo;
         "ftb-match": FtbMatch;
         "ftb-schedule-league": FtbScheduleLeague;
         "ftb-schedule-team": FtbScheduleTeam;
         "ftb-settings": FtbSettings;
         "ftb-standings": FtbStandings;
-        "ftb-store": FtbStore;
         "ftb-team": FtbTeam;
         "ftb-week": FtbWeek;
         "my-component": MyComponent;
@@ -175,12 +186,13 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "ftb-app": LocalJSX.FtbApp & JSXBase.HTMLAttributes<HTMLFtbAppElement>;
+            "ftb-info": LocalJSX.FtbInfo & JSXBase.HTMLAttributes<HTMLFtbInfoElement>;
             "ftb-match": LocalJSX.FtbMatch & JSXBase.HTMLAttributes<HTMLFtbMatchElement>;
             "ftb-schedule-league": LocalJSX.FtbScheduleLeague & JSXBase.HTMLAttributes<HTMLFtbScheduleLeagueElement>;
             "ftb-schedule-team": LocalJSX.FtbScheduleTeam & JSXBase.HTMLAttributes<HTMLFtbScheduleTeamElement>;
             "ftb-settings": LocalJSX.FtbSettings & JSXBase.HTMLAttributes<HTMLFtbSettingsElement>;
             "ftb-standings": LocalJSX.FtbStandings & JSXBase.HTMLAttributes<HTMLFtbStandingsElement>;
-            "ftb-store": LocalJSX.FtbStore & JSXBase.HTMLAttributes<HTMLFtbStoreElement>;
             "ftb-team": LocalJSX.FtbTeam & JSXBase.HTMLAttributes<HTMLFtbTeamElement>;
             "ftb-week": LocalJSX.FtbWeek & JSXBase.HTMLAttributes<HTMLFtbWeekElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;

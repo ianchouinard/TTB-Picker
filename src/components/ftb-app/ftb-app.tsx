@@ -7,17 +7,17 @@ import { gear } from './icon/gear';
 import { info } from './icon/info';
 
 @Component({
-  tag: 'ftb-store',
+  tag: 'ftb-app',
   shadow: false,
-  styleUrl: 'ftb-store.scss'
+  styleUrl: 'ftb-app.scss'
 })
-export class FtbStore {
+export class FtbApp {
 
   @Element() root: HTMLElement;
   public schedule: Array<Week>;
   public teams: TeamsList;
   @State() isReady: boolean;
-  @State() currentView: string = 'standings';
+  @State() currentView: string = 'info';
 
   componentWillLoad() {
     this.setup();
@@ -154,51 +154,10 @@ export class FtbStore {
     localStorage.setItem('teams', JSON.stringify(this.teams));
   }
 
-  tupdateMatch(week: string, winningTeamCode: string){
-    const weekEntry = [...this.schedule].filter(w => w.title == week)[0];
-    const match = weekEntry.games.filter(m => m.away == winningTeamCode || m.home == winningTeamCode)[0];
-    const teamList = {...this.teams};
-    const winningTeam: Team = teamList[winningTeamCode];
-    const losingTeam: Team = teamList[(match.away == winningTeamCode) ? match.home : match.away];
-
-    if (!winningTeam.wins.includes(week)) {
-      winningTeam.wins.push(week);
-    } else if (winningTeam.wins.includes(week)) {
-      winningTeam.wins.splice(winningTeam.wins.indexOf(week), 1);
-    }
-
-    if (!losingTeam.losses.includes(week)) {
-      losingTeam.losses.push(week);
-    }else if (losingTeam.losses.includes(week)) {
-      losingTeam.losses.splice(losingTeam.losses.indexOf(week), 1);
-    }
-
-    match.winner = winningTeamCode;
-
-    const undecidedMatchesInWeek = weekEntry.games.filter(g => (!g.winner || g.winner == ''));
-
-    if (!undecidedMatchesInWeek.length) {
-      weekEntry.completed = true;
-    } else {
-      weekEntry.completed = false;
-    }
-
-    this.showDoneStates();
-
-    this.schedule = this.schedule;
-    this.teams = teamList;
-  }
-
   @Method()
-  async doDummyRun() {
-    this.schedule.forEach((w) => {
-      w.games.forEach((g) => {
-        this.tupdateMatch(w.title, g.home);
-      });
-    });
-
-    localStorage.setItem('schedule', JSON.stringify(this.schedule));
-    localStorage.setItem('teams', JSON.stringify(this.teams));
+  async setView(view: string) {
+    this.currentView = view;
+    window.scrollTo(0, 0);
   }
 
   showDoneStates() {
@@ -207,12 +166,6 @@ export class FtbStore {
       const weekEntry = this.schedule.filter(s => s.title == w.innerHTML)[0];
       w.classList[weekEntry.completed ? 'add' : 'remove']('completed');
     });
-  }
-
-  @Method()
-  async setView(view: string) {
-    this.currentView = view;
-    window.scrollTo(0, 0);
   }
 
   componentDidRender() {
@@ -292,7 +245,7 @@ export class FtbStore {
               )}
 
               {this.currentView == 'info' && (
-                <p>info</p>
+                <ftb-info></ftb-info>
               )}
             </div>
           </div>

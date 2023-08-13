@@ -11,7 +11,11 @@ export const config: Config = {
     },
   ],
   plugins: [
-    sass()
+    sass({
+      injectGlobalPaths: [
+        'src/globals/vars.scss'
+      ]
+    })
   ],
   testing: {
     browserHeadless: "new",

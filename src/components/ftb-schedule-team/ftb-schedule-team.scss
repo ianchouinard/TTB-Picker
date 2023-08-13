@@ -65,7 +65,7 @@
   }
 
   &:hover {
-    background: #4653E1;
+    background: $highlight-1;
     color: #fff;
   }
 }
@@ -87,7 +87,7 @@
     }
 
     .win {
-      color: #4653E1;
+      color: $highlight-1;
     }
 
     .loss {

@@ -1,5 +1,5 @@
 import { Component, Prop, h, State } from '@stencil/core';
-import { Standing } from '../ftb-store/interfaces/standing.interface';
+import { Standing } from '../ftb-app/interfaces/standing.interface';
 
 @Component({
   tag: 'ftb-schedule-team',
