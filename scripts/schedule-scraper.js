@@ -1,5 +1,5 @@
 
-// Basic DOM script to scrape schedule from ESPN for a single week. Run in browser console.
+// Basic DOM script to scrape schedule for a single week. Run in browser console.
 
 /*
 {
@@ -10,7 +10,7 @@
 */
 
 (function() {
-    const espnToTeamCodeMap = {
+    const webToTeamCodeMap = {
         "/nfl/team/_/name/det/detroit-lions": "dlions",
         "/nfl/team/_/name/kc/kansas-city-chiefs": "kchiefs",
         "/nfl/team/_/name/car/carolina-panthers": "cpanthers",
@@ -64,8 +64,8 @@
             const homeTeam = inGame[1].querySelectorAll('a')[1].getAttribute('href');
             const gameTime = game.querySelector('.date__col a').innerText;
     
-            entry.home = espnToTeamCodeMap[homeTeam];
-            entry.away = espnToTeamCodeMap[awayTeam];
+            entry.home = webToTeamCodeMap[homeTeam];
+            entry.away = webToTeamCodeMap[awayTeam];
             entry.date = `${day} at ${gameTime} est`;
     
             gameList.push(entry);
