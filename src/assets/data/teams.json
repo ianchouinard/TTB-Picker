@@ -1,0 +1,322 @@
+{
+    "npatriots": {
+        "title": "New England Patriots",
+        "conf": "AFC",
+        "div": "East",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#20518D"
+    },
+    "njets": {
+        "title": "New York Jets",
+        "conf": "AFC",
+        "div": "East",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#19A404"
+    },
+    "bbills": {
+        "title": "Buffalo Bills",
+        "conf": "AFC",
+        "div": "East",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#1477F0"
+    },
+    "mdolphins": {
+        "title": "Miami Dolphins",
+        "conf": "AFC",
+        "div": "East",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#0FD5E0"
+    },
+    "bravens": {
+        "title": "Baltimore Ravens",
+        "conf": "AFC",
+        "div": "North",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#5A1C7C"
+    },
+    "cbengals": {
+        "title": "Cincinnati Bengals",
+        "conf": "AFC",
+        "div": "North",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#F38415"
+    },
+    "cbrowns": {
+        "title": "Cleveland Browns",
+        "conf": "AFC",
+        "div": "North",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#D4931B"
+    },
+    "psteelers": {
+        "title": "Pittsburgh Steelers",
+        "conf": "AFC",
+        "div": "North",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#F4DF23"
+    },
+    "icolts": {
+        "title": "Indiannapolis Colts",
+        "conf": "AFC",
+        "div": "South",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#0A87DB"
+    },
+    "ttitans": {
+        "title": "Tennessee Titans",
+        "conf": "AFC",
+        "div": "South",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#235D84"
+    },
+    "htexans": {
+        "title": "Houston Texans",
+        "conf": "AFC",
+        "div": "South",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#163E59"
+    },
+    "jjaguars": {
+        "title": "Jacksonville Jaguars",
+        "conf": "AFC",
+        "div": "South",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#12B8C3"
+    },
+    "kchiefs": {
+        "title": "Kansas City Chiefs",
+        "conf": "AFC",
+        "div": "West",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#E42315"
+    },
+    "dbroncos": {
+        "title": "Denver Broncos",
+        "conf": "AFC",
+        "div": "West",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#E08318"
+    },
+    "lraiders": {
+        "title": "Las Vegas Raiders",
+        "conf": "AFC",
+        "div": "West",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#282828"
+    },
+    "lchargers": {
+        "title": "Los Angeles Chargers",
+        "conf": "AFC",
+        "div": "West",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#23A1F4"
+    },
+    "ngiants": {
+        "title": "New York Giants",
+        "conf": "NFC",
+        "div": "East",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#183AE0"
+    },
+    "dcowboys": {
+        "title": "Dallas Cowboys",
+        "conf": "NFC",
+        "div": "East",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#C2C2C6"
+    },
+    "wcommanders": {
+        "title": "Washington Commanders",
+        "conf": "NFC",
+        "div": "East",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#BC092D"
+    },
+    "peagles": {
+        "title": "Philadelphia Eagles",
+        "conf": "NFC",
+        "div": "East",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#0F985D"
+    },
+    "dlions": {
+        "title": "Detroit Lions",
+        "conf": "NFC",
+        "div": "North",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#0F9EE0"
+    },
+    "gpackers": {
+        "title": "Green Bay Packers",
+        "conf": "NFC",
+        "div": "North",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#118C2E"
+    },
+    "mvikings": {
+        "title": "Minnesota Vikings",
+        "conf": "NFC",
+        "div": "North",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#8512AF"
+    },
+    "cbears": {
+        "title": "Chicago Bears",
+        "conf": "NFC",
+        "div": "North",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#1F3674"
+    },
+    "tbuccaneers": {
+        "title": "Tampa Bay Buccaneers",
+        "conf": "NFC",
+        "div": "South",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#C2191C"
+    },
+    "nsaints": {
+        "title": "New Orleans Saints",
+        "conf": "NFC",
+        "div": "South",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#D9BA1A"
+    },
+    "afalcons": {
+        "title": "Atlanta Falcons",
+        "conf": "NFC",
+        "div": "South",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#111111"
+    },
+    "cpanthers": {
+        "title": "Carolina Panthers",
+        "conf": "NFC",
+        "div": "South",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#50D0F0"
+    },
+    "s49": {
+        "title": "San Fancisco 49ers",
+        "conf": "NFC",
+        "div": "West",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#A62023"
+    },
+    "sseahawks": {
+        "title": "Seattle Seahawks",
+        "conf": "NFC",
+        "div": "West",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#3CD934"
+    },
+    "acardinals": {
+        "title": "Arizona Cardinals",
+        "conf": "NFC",
+        "div": "West",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#E20303"
+    },
+    "lrams": {
+        "title": "Los Angeles Rams",
+        "conf": "NFC",
+        "div": "West",
+        "wins": [],
+        "losses": [],
+        "division_record": [0, 0],
+        "conference_record": [0, 0],
+        "color": "#036BE2"
+    }
+}

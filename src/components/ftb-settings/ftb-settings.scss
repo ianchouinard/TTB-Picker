@@ -1,0 +1,23 @@
+.settings {
+
+  .setting-section {
+    margin-bottom: 40px;
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 30px;
+  }
+}

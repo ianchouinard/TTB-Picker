@@ -1,0 +1,84 @@
+
+.week {
+
+  h2 {
+    margin-bottom: 15px;
+  }
+
+  .matches {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .match {
+    margin: 30px 0;
+    flex-basis: calc(50% - 20px);
+    padding: 0 20px 0 0;
+
+    h3 {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+
+    &__contest {
+      display: flex;
+      align-items: center;
+
+      & > div {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        padding: 4px 6px;
+        border: 1px solid transparent;
+        border-radius: 7px;
+        margin-left: -6px;
+        cursor: pointer;
+        transition: all 400ms;
+
+        &.win {
+          background: #CBCFF9;
+        }
+
+        span {
+          width: 10px;
+          height: 10px;
+          border: 1px solid #ccc;
+          border-radius: 100%;
+          margin-right: 10px;
+        }
+
+        &:hover {
+          background: #F1EEEE;
+        }
+      }
+
+      & > span {
+        margin: 0 20px 0 16px;
+        font-weight: 600;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > div {
+      flex-basis: 50%;
+
+      .control {
+        font-weight: 600;
+        font-size: 1.2rem;
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+}

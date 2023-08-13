@@ -1,0 +1,1452 @@
+[
+    {
+        "title": "Week 1",
+        "games": [
+                {
+                    "date": "Thursday, September 7, 2023 at 8:20 PM est",
+                    "home": "kchiefs",
+                    "away": "dlions"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 1:00 PM est",
+                    "home": "afalcons",
+                    "away": "cpanthers"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 1:00 PM est",
+                    "home": "cbrowns",
+                    "away": "cbengals"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 1:00 PM est",
+                    "home": "icolts",
+                    "away": "jjaguars"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 1:00 PM est",
+                    "home": "mvikings",
+                    "away": "tbuccaneers"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 1:00 PM est",
+                    "home": "nsaints",
+                    "away": "ttitans"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 1:00 PM est",
+                    "home": "psteelers",
+                    "away": "s49"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 1:00 PM est",
+                    "home": "wcommanders",
+                    "away": "acardinals"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 1:00 PM est",
+                    "home": "bravens",
+                    "away": "htexans"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 4:25 PM est",
+                    "home": "cbears",
+                    "away": "gpackers"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 4:25 PM est",
+                    "home": "dbroncos",
+                    "away": "lraiders"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 4:25 PM est",
+                    "home": "npatriots",
+                    "away": "peagles"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 4:25 PM est",
+                    "home": "lchargers",
+                    "away": "mdolphins"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 4:25 PM est",
+                    "home": "sseahawks",
+                    "away": "lrams"
+                },
+                {
+                    "date": "Sunday, September 10, 2023 at 8:20 PM est",
+                    "home": "ngiants",
+                    "away": "dcowboys"
+                },
+                {
+                    "date": "Monday, September 11, 2023 at 8:15 PM est",
+                    "home": "njets",
+                    "away": "bbills"
+                }
+            ]
+    },
+    {
+        "title": "Week 2",
+        "games": [
+            {
+                "date": "Thursday, September 14, 2023 at 8:15 PM est",
+                "home": "peagles",
+                "away": "mvikings"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 1:00 PM est",
+                "home": "afalcons",
+                "away": "gpackers"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 1:00 PM est",
+                "home": "bbills",
+                "away": "lraiders"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 1:00 PM est",
+                "home": "cbengals",
+                "away": "bravens"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 1:00 PM est",
+                "home": "dlions",
+                "away": "sseahawks"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 1:00 PM est",
+                "home": "ttitans",
+                "away": "lchargers"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 1:00 PM est",
+                "home": "tbuccaneers",
+                "away": "cbears"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 1:00 PM est",
+                "home": "jjaguars",
+                "away": "kchiefs"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 1:00 PM est",
+                "home": "htexans",
+                "away": "icolts"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 4:05 PM est",
+                "home": "lrams",
+                "away": "s49"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 4:05 PM est",
+                "home": "acardinals",
+                "away": "ngiants"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 4:25 PM est",
+                "home": "dcowboys",
+                "away": "njets"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 4:25 PM est",
+                "home": "dbroncos",
+                "away": "wcommanders"
+            },
+            {
+                "date": "Sunday, September 17, 2023 at 8:20 PM est",
+                "home": "npatriots",
+                "away": "mdolphins"
+            },
+            {
+                "date": "Monday, September 18, 2023 at 7:15 PM est",
+                "home": "cpanthers",
+                "away": "nsaints"
+            },
+            {
+                "date": "Monday, September 18, 2023 at 8:15 PM est",
+                "home": "psteelers",
+                "away": "cbrowns"
+            }
+        ]
+    },
+    {
+        "title": "Week 3",
+        "games": [
+            {
+                "date": "Thursday, September 21, 2023 at 8:15 PM est",
+                "home": "s49",
+                "away": "ngiants"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 1:00 PM est",
+                "home": "cbrowns",
+                "away": "ttitans"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 1:00 PM est",
+                "home": "dlions",
+                "away": "afalcons"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 1:00 PM est",
+                "home": "gpackers",
+                "away": "nsaints"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 1:00 PM est",
+                "home": "mdolphins",
+                "away": "dbroncos"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 1:00 PM est",
+                "home": "mvikings",
+                "away": "lchargers"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 1:00 PM est",
+                "home": "njets",
+                "away": "npatriots"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 1:00 PM est",
+                "home": "wcommanders",
+                "away": "bbills"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 1:00 PM est",
+                "home": "jjaguars",
+                "away": "htexans"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 1:00 PM est",
+                "home": "bravens",
+                "away": "icolts"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 4:05 PM est",
+                "home": "sseahawks",
+                "away": "cpanthers"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 4:25 PM est",
+                "home": "kchiefs",
+                "away": "cbears"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 4:25 PM est",
+                "home": "acardinals",
+                "away": "dcowboys"
+            },
+            {
+                "date": "Sunday, September 24, 2023 at 8:20 PM est",
+                "home": "lraiders",
+                "away": "psteelers"
+            },
+            {
+                "date": "Monday, September 25, 2023 at 7:15 PM est",
+                "home": "tbuccaneers",
+                "away": "peagles"
+            },
+            {
+                "date": "Monday, September 25, 2023 at 8:15 PM est",
+                "home": "cbengals",
+                "away": "lrams"
+            }
+        ]
+    },
+    {
+        "title": "Week 4",
+        "games": [
+            {
+                "date": "Thursday, September 28, 2023 at 8:15 PM est",
+                "home": "gpackers",
+                "away": "dlions"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 9:30 AM est",
+                "home": "jjaguars",
+                "away": "afalcons"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 1:00 PM est",
+                "home": "bbills",
+                "away": "mdolphins"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 1:00 PM est",
+                "home": "cbears",
+                "away": "dbroncos"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 1:00 PM est",
+                "home": "cbrowns",
+                "away": "bravens"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 1:00 PM est",
+                "home": "ttitans",
+                "away": "cbengals"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 1:00 PM est",
+                "home": "icolts",
+                "away": "lrams"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 1:00 PM est",
+                "home": "nsaints",
+                "away": "tbuccaneers"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 1:00 PM est",
+                "home": "peagles",
+                "away": "wcommanders"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 1:00 PM est",
+                "home": "cpanthers",
+                "away": "mvikings"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 1:00 PM est",
+                "home": "htexans",
+                "away": "psteelers"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 4:05 PM est",
+                "home": "lchargers",
+                "away": "lraiders"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 4:25 PM est",
+                "home": "dcowboys",
+                "away": "npatriots"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 4:25 PM est",
+                "home": "s49",
+                "away": "acardinals"
+            },
+            {
+                "date": "Sunday, October 1, 2023 at 8:20 PM est",
+                "home": "njets",
+                "away": "kchiefs"
+            },
+            {
+                "date": "Monday, October 2, 2023 at 8:15 PM est",
+                "home": "ngiants",
+                "away": "sseahawks"
+            }
+        ]
+    },
+    {
+        "title": "Week 5",
+        "games": [
+            {
+                "date": "Thursday, October 5, 2023 at 8:15 PM est",
+                "home": "wcommanders",
+                "away": "cbears"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 9:30 AM est",
+                "home": "bbills",
+                "away": "jjaguars"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 1:00 PM est",
+                "home": "afalcons",
+                "away": "htexans"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 1:00 PM est",
+                "home": "dlions",
+                "away": "cpanthers"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 1:00 PM est",
+                "home": "icolts",
+                "away": "ttitans"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 1:00 PM est",
+                "home": "mdolphins",
+                "away": "ngiants"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 1:00 PM est",
+                "home": "npatriots",
+                "away": "nsaints"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 1:00 PM est",
+                "home": "psteelers",
+                "away": "bravens"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 4:05 PM est",
+                "home": "lrams",
+                "away": "peagles"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 4:05 PM est",
+                "home": "acardinals",
+                "away": "cbengals"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 4:25 PM est",
+                "home": "dbroncos",
+                "away": "njets"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 4:25 PM est",
+                "home": "mvikings",
+                "away": "kchiefs"
+            },
+            {
+                "date": "Sunday, October 8, 2023 at 8:20 PM est",
+                "home": "s49",
+                "away": "dcowboys"
+            },
+            {
+                "date": "Monday, October 9, 2023 at 8:15 PM est",
+                "home": "lraiders",
+                "away": "gpackers"
+            }
+        ]
+    },
+    {
+        "title": "Week 6",
+        "games": [
+            {
+                "date": "Thursday, October 12, 2023 at 8:15 PM est",
+                "home": "kchiefs",
+                "away": "dbroncos"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 9:30 AM est",
+                "home": "ttitans",
+                "away": "bravens"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 1:00 PM est",
+                "home": "afalcons",
+                "away": "wcommanders"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 1:00 PM est",
+                "home": "cbears",
+                "away": "mvikings"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 1:00 PM est",
+                "home": "cbengals",
+                "away": "sseahawks"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 1:00 PM est",
+                "home": "cbrowns",
+                "away": "s49"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 1:00 PM est",
+                "home": "mdolphins",
+                "away": "cpanthers"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 1:00 PM est",
+                "home": "tbuccaneers",
+                "away": "dlions"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 1:00 PM est",
+                "home": "jjaguars",
+                "away": "icolts"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 1:00 PM est",
+                "home": "htexans",
+                "away": "nsaints"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 4:05 PM est",
+                "home": "lraiders",
+                "away": "npatriots"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 4:25 PM est",
+                "home": "lrams",
+                "away": "acardinals"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 4:25 PM est",
+                "home": "njets",
+                "away": "peagles"
+            },
+            {
+                "date": "Sunday, October 15, 2023 at 8:20 PM est",
+                "home": "bbills",
+                "away": "ngiants"
+            },
+            {
+                "date": "Monday, October 16, 2023 at 8:15 PM est",
+                "home": "lchargers",
+                "away": "dcowboys"
+            }
+        ]
+    },
+    {
+        "title": "Week 7",
+        "games": [
+            {
+                "date": "Thursday, October 19, 2023 at 8:15 PM est",
+                "home": "nsaints",
+                "away": "jjaguars"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 1:00 PM est",
+                "home": "cbears",
+                "away": "lraiders"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 1:00 PM est",
+                "home": "icolts",
+                "away": "cbrowns"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 1:00 PM est",
+                "home": "npatriots",
+                "away": "bbills"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 1:00 PM est",
+                "home": "ngiants",
+                "away": "wcommanders"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 1:00 PM est",
+                "home": "tbuccaneers",
+                "away": "afalcons"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 1:00 PM est",
+                "home": "bravens",
+                "away": "dlions"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 4:05 PM est",
+                "home": "lrams",
+                "away": "psteelers"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 4:05 PM est",
+                "home": "sseahawks",
+                "away": "acardinals"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 4:25 PM est",
+                "home": "dbroncos",
+                "away": "gpackers"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 4:25 PM est",
+                "home": "kchiefs",
+                "away": "lchargers"
+            },
+            {
+                "date": "Sunday, October 22, 2023 at 8:20 PM est",
+                "home": "peagles",
+                "away": "mdolphins"
+            },
+            {
+                "date": "Monday, October 23, 2023 at 8:15 PM est",
+                "home": "mvikings",
+                "away": "s49"
+            }
+        ]
+    },
+    {
+        "title": "Week 8",
+        "games": [
+            {
+                "date": "Thursday, October 26, 2023 at 8:15 PM est",
+                "home": "bbills",
+                "away": "tbuccaneers"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 1:00 PM est",
+                "home": "dcowboys",
+                "away": "lrams"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 1:00 PM est",
+                "home": "gpackers",
+                "away": "mvikings"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 1:00 PM est",
+                "home": "ttitans",
+                "away": "afalcons"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 1:00 PM est",
+                "home": "icolts",
+                "away": "nsaints"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 1:00 PM est",
+                "home": "mdolphins",
+                "away": "npatriots"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 1:00 PM est",
+                "home": "ngiants",
+                "away": "njets"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 1:00 PM est",
+                "home": "psteelers",
+                "away": "jjaguars"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 1:00 PM est",
+                "home": "wcommanders",
+                "away": "peagles"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 1:00 PM est",
+                "home": "cpanthers",
+                "away": "htexans"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 4:05 PM est",
+                "home": "sseahawks",
+                "away": "cbrowns"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 4:25 PM est",
+                "home": "dbroncos",
+                "away": "kchiefs"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 4:25 PM est",
+                "home": "acardinals",
+                "away": "bravens"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 4:25 PM est",
+                "home": "s49",
+                "away": "cbengals"
+            },
+            {
+                "date": "Sunday, October 29, 2023 at 8:20 PM est",
+                "home": "lchargers",
+                "away": "cbears"
+            },
+            {
+                "date": "Monday, October 30, 2023 at 8:15 PM est",
+                "home": "dlions",
+                "away": "lraiders"
+            }
+        ]
+    },
+    {
+        "title": "Week 9",
+        "games": [
+            {
+                "date": "Thursday, November 2, 2023 at 8:15 PM est",
+                "home": "psteelers",
+                "away": "ttitans"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 9:30 AM est",
+                "home": "kchiefs",
+                "away": "mdolphins"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 1:00 PM est",
+                "home": "afalcons",
+                "away": "mvikings"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 1:00 PM est",
+                "home": "cbrowns",
+                "away": "acardinals"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 1:00 PM est",
+                "home": "gpackers",
+                "away": "lrams"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 1:00 PM est",
+                "home": "npatriots",
+                "away": "wcommanders"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 1:00 PM est",
+                "home": "nsaints",
+                "away": "cbears"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 1:00 PM est",
+                "home": "bravens",
+                "away": "sseahawks"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 1:00 PM est",
+                "home": "htexans",
+                "away": "tbuccaneers"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 4:05 PM est",
+                "home": "cpanthers",
+                "away": "icolts"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 4:25 PM est",
+                "home": "lraiders",
+                "away": "ngiants"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 4:25 PM est",
+                "home": "peagles",
+                "away": "dcowboys"
+            },
+            {
+                "date": "Sunday, November 5, 2023 at 8:20 PM est",
+                "home": "cbengals",
+                "away": "bbills"
+            },
+            {
+                "date": "Monday, November 6, 2023 at 8:15 PM est",
+                "home": "njets",
+                "away": "lchargers"
+            }
+        ]
+    },
+    {
+        "title": "Week 10",
+        "games": [
+            {
+                "date": "Thursday, November 9, 2023 at 8:15 PM est",
+                "home": "cbears",
+                "away": "cpanthers"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 9:30 AM est",
+                "home": "npatriots",
+                "away": "icolts"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 1:00 PM est",
+                "home": "cbengals",
+                "away": "htexans"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 1:00 PM est",
+                "home": "mvikings",
+                "away": "nsaints"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 1:00 PM est",
+                "home": "psteelers",
+                "away": "gpackers"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 1:00 PM est",
+                "home": "tbuccaneers",
+                "away": "ttitans"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 1:00 PM est",
+                "home": "jjaguars",
+                "away": "s49"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 1:00 PM est",
+                "home": "bravens",
+                "away": "cbrowns"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 4:05 PM est",
+                "home": "acardinals",
+                "away": "afalcons"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 4:05 PM est",
+                "home": "lchargers",
+                "away": "dlions"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 4:25 PM est",
+                "home": "dcowboys",
+                "away": "ngiants"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 4:25 PM est",
+                "home": "sseahawks",
+                "away": "wcommanders"
+            },
+            {
+                "date": "Sunday, November 12, 2023 at 8:20 PM est",
+                "home": "lraiders",
+                "away": "njets"
+            },
+            {
+                "date": "Monday, November 13, 2023 at 8:15 PM est",
+                "home": "bbills",
+                "away": "dbroncos"
+            }
+        ]
+    },
+    {
+        "title": "Week 11",
+        "games": [
+            {
+                "date": "Thursday, November 16, 2023 at 8:15 PM est",
+                "home": "bravens",
+                "away": "cbengals"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 1:00 PM est",
+                "home": "cbrowns",
+                "away": "psteelers"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 1:00 PM est",
+                "home": "dlions",
+                "away": "cbears"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 1:00 PM est",
+                "home": "gpackers",
+                "away": "lchargers"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 1:00 PM est",
+                "home": "mdolphins",
+                "away": "lraiders"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 1:00 PM est",
+                "home": "wcommanders",
+                "away": "ngiants"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 1:00 PM est",
+                "home": "cpanthers",
+                "away": "dcowboys"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 1:00 PM est",
+                "home": "jjaguars",
+                "away": "ttitans"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 1:00 PM est",
+                "home": "htexans",
+                "away": "acardinals"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 4:05 PM est",
+                "home": "s49",
+                "away": "tbuccaneers"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 4:25 PM est",
+                "home": "bbills",
+                "away": "njets"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 4:25 PM est",
+                "home": "lrams",
+                "away": "sseahawks"
+            },
+            {
+                "date": "Sunday, November 19, 2023 at 8:20 PM est",
+                "home": "dbroncos",
+                "away": "mvikings"
+            },
+            {
+                "date": "Monday, November 20, 2023 at 8:15 PM est",
+                "home": "kchiefs",
+                "away": "peagles"
+            }
+        ]
+    },
+    {
+        "title": "Week 12",
+        "games": [
+            {
+                "date": "Thursday, November 23, 2023 at 12:30 PM est",
+                "home": "dlions",
+                "away": "gpackers"
+            },
+            {
+                "date": "Thursday, November 23, 2023 at 4:30 PM est",
+                "home": "dcowboys",
+                "away": "wcommanders"
+            },
+            {
+                "date": "Thursday, November 23, 2023 at 8:20 PM est",
+                "home": "sseahawks",
+                "away": "s49"
+            },
+            {
+                "date": "Friday, November 24, 2023 at 3:00 PM est",
+                "home": "njets",
+                "away": "mdolphins"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 1:00 PM est",
+                "home": "afalcons",
+                "away": "nsaints"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 1:00 PM est",
+                "home": "cbengals",
+                "away": "psteelers"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 1:00 PM est",
+                "home": "ttitans",
+                "away": "cpanthers"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 1:00 PM est",
+                "home": "icolts",
+                "away": "tbuccaneers"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 1:00 PM est",
+                "home": "ngiants",
+                "away": "npatriots"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 1:00 PM est",
+                "home": "htexans",
+                "away": "jjaguars"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 4:05 PM est",
+                "home": "dbroncos",
+                "away": "cbrowns"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 4:05 PM est",
+                "home": "acardinals",
+                "away": "lrams"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 4:25 PM est",
+                "home": "lraiders",
+                "away": "kchiefs"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 4:25 PM est",
+                "home": "peagles",
+                "away": "bbills"
+            },
+            {
+                "date": "Sunday, November 26, 2023 at 8:20 PM est",
+                "home": "lchargers",
+                "away": "bravens"
+            },
+            {
+                "date": "Monday, November 27, 2023 at 8:15 PM est",
+                "home": "mvikings",
+                "away": "cbears"
+            }
+        ]
+    },
+    {
+        "title": "Week 13",
+        "games": [
+            {
+                "date": "Thursday, November 30, 2023 at 8:15 PM est",
+                "home": "dcowboys",
+                "away": "sseahawks"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 1:00 PM est",
+                "home": "ttitans",
+                "away": "icolts"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 1:00 PM est",
+                "home": "npatriots",
+                "away": "lchargers"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 1:00 PM est",
+                "home": "nsaints",
+                "away": "dlions"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 1:00 PM est",
+                "home": "njets",
+                "away": "afalcons"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 1:00 PM est",
+                "home": "psteelers",
+                "away": "acardinals"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 1:00 PM est",
+                "home": "tbuccaneers",
+                "away": "cpanthers"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 1:00 PM est",
+                "home": "wcommanders",
+                "away": "mdolphins"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 4:05 PM est",
+                "home": "htexans",
+                "away": "dbroncos"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 4:25 PM est",
+                "home": "lrams",
+                "away": "cbrowns"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 4:25 PM est",
+                "home": "peagles",
+                "away": "s49"
+            },
+            {
+                "date": "Sunday, December 3, 2023 at 8:20 PM est",
+                "home": "gpackers",
+                "away": "kchiefs"
+            },
+            {
+                "date": "Monday, December 4, 2023 at 8:15 PM est",
+                "home": "jjaguars",
+                "away": "cbengals"
+            }
+        ]
+    },
+    {
+        "title": "Week 14",
+        "games": [
+            {
+                "date": "Thursday, December 7, 2023 at 8:15 PM est",
+                "home": "psteelers",
+                "away": "npatriots"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 1:00 PM est",
+                "home": "afalcons",
+                "away": "tbuccaneers"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 1:00 PM est",
+                "home": "cbears",
+                "away": "dlions"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 1:00 PM est",
+                "home": "cbengals",
+                "away": "icolts"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 1:00 PM est",
+                "home": "cbrowns",
+                "away": "jjaguars"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 1:00 PM est",
+                "home": "nsaints",
+                "away": "cpanthers"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 1:00 PM est",
+                "home": "njets",
+                "away": "htexans"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 1:00 PM est",
+                "home": "bravens",
+                "away": "lrams"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 4:05 PM est",
+                "home": "lraiders",
+                "away": "mvikings"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 4:05 PM est",
+                "home": "s49",
+                "away": "sseahawks"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 4:25 PM est",
+                "home": "kchiefs",
+                "away": "bbills"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 4:25 PM est",
+                "home": "lchargers",
+                "away": "dbroncos"
+            },
+            {
+                "date": "Sunday, December 10, 2023 at 8:20 PM est",
+                "home": "dcowboys",
+                "away": "peagles"
+            },
+            {
+                "date": "Monday, December 11, 2023 at 8:15 PM est",
+                "home": "mdolphins",
+                "away": "ttitans"
+            },
+            {
+                "date": "Monday, December 11, 2023 at 8:15 PM est",
+                "home": "ngiants",
+                "away": "gpackers"
+            }
+        ]
+    },
+    {
+        "title": "Week 15",
+        "games": [
+            {
+                "date": "Thursday, December 14, 2023 at 8:15 PM est",
+                "home": "lraiders",
+                "away": "lchargers"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at TBD est",
+                "home": "cbengals",
+                "away": "mvikings"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at TBD est",
+                "home": "cbrowns",
+                "away": "cbears"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at TBD est",
+                "home": "dlions",
+                "away": "dbroncos"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at TBD est",
+                "home": "icolts",
+                "away": "psteelers"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at TBD est",
+                "home": "cpanthers",
+                "away": "afalcons"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at 1:00 PM est",
+                "home": "gpackers",
+                "away": "tbuccaneers"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at 1:00 PM est",
+                "home": "ttitans",
+                "away": "htexans"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at 1:00 PM est",
+                "home": "mdolphins",
+                "away": "njets"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at 1:00 PM est",
+                "home": "nsaints",
+                "away": "ngiants"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at 4:05 PM est",
+                "home": "lrams",
+                "away": "wcommanders"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at 4:05 PM est",
+                "home": "acardinals",
+                "away": "s49"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at 4:25 PM est",
+                "home": "bbills",
+                "away": "dcowboys"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at 4:25 PM est",
+                "home": "sseahawks",
+                "away": "peagles"
+            },
+            {
+                "date": "Sunday, December 17, 2023 at 8:20 PM est",
+                "home": "jjaguars",
+                "away": "bravens"
+            },
+            {
+                "date": "Monday, December 18, 2023 at 8:15 PM est",
+                "home": "npatriots",
+                "away": "kchiefs"
+            }
+        ]
+    },
+    {
+        "title": "Week 16",
+        "games": [
+            {
+                "date": "Thursday, December 21, 2023 at 8:15 PM est",
+                "home": "lrams",
+                "away": "nsaints"
+            },
+            {
+                "date": "Saturday, December 23, 2023 at 4:30 PM est",
+                "home": "psteelers",
+                "away": "cbengals"
+            },
+            {
+                "date": "Saturday, December 23, 2023 at 8:00 PM est",
+                "home": "lchargers",
+                "away": "bbills"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 1:00 PM est",
+                "home": "afalcons",
+                "away": "icolts"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 1:00 PM est",
+                "home": "ttitans",
+                "away": "sseahawks"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 1:00 PM est",
+                "home": "mvikings",
+                "away": "dlions"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 1:00 PM est",
+                "home": "njets",
+                "away": "wcommanders"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 1:00 PM est",
+                "home": "cpanthers",
+                "away": "gpackers"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 1:00 PM est",
+                "home": "htexans",
+                "away": "cbrowns"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 4:05 PM est",
+                "home": "tbuccaneers",
+                "away": "jjaguars"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 4:25 PM est",
+                "home": "cbears",
+                "away": "acardinals"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 4:25 PM est",
+                "home": "mdolphins",
+                "away": "dcowboys"
+            },
+            {
+                "date": "Sunday, December 24, 2023 at 8:15 PM est",
+                "home": "dbroncos",
+                "away": "npatriots"
+            },
+            {
+                "date": "Monday, December 25, 2023 at 1:00 PM est",
+                "home": "kchiefs",
+                "away": "lraiders"
+            },
+            {
+                "date": "Monday, December 25, 2023 at 4:30 PM est",
+                "home": "peagles",
+                "away": "ngiants"
+            },
+            {
+                "date": "Monday, December 25, 2023 at 8:15 PM est",
+                "home": "s49",
+                "away": "bravens"
+            }
+        ]
+    },
+    {
+        "title": "Week 17",
+        "games": [
+            {
+                "date": "Thursday, December 28, 2023 at 8:15 PM est",
+                "home": "cbrowns",
+                "away": "njets"
+            },
+            {
+                "date": "Saturday, December 30, 2023 at 8:15 PM est",
+                "home": "dcowboys",
+                "away": "dlions"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "bbills",
+                "away": "npatriots"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "cbears",
+                "away": "afalcons"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "icolts",
+                "away": "lraiders"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "ngiants",
+                "away": "lrams"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "peagles",
+                "away": "acardinals"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "tbuccaneers",
+                "away": "nsaints"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "wcommanders",
+                "away": "s49"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "jjaguars",
+                "away": "cpanthers"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "bravens",
+                "away": "mdolphins"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 1:00 PM est",
+                "home": "htexans",
+                "away": "ttitans"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 4:05 PM est",
+                "home": "sseahawks",
+                "away": "psteelers"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 4:25 PM est",
+                "home": "dbroncos",
+                "away": "lchargers"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 4:25 PM est",
+                "home": "kchiefs",
+                "away": "cbengals"
+            },
+            {
+                "date": "Sunday, December 31, 2023 at 8:20 PM est",
+                "home": "mvikings",
+                "away": "gpackers"
+            }
+        ]
+    },
+    {
+        "title": "Week 18",
+        "games": [
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "cbengals",
+                "away": "cbrowns"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "dlions",
+                "away": "mvikings"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "gpackers",
+                "away": "cbears"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "ttitans",
+                "away": "jjaguars"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "icolts",
+                "away": "htexans"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "lraiders",
+                "away": "dbroncos"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "mdolphins",
+                "away": "bbills"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "npatriots",
+                "away": "njets"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "nsaints",
+                "away": "afalcons"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "ngiants",
+                "away": "peagles"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "acardinals",
+                "away": "sseahawks"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "lchargers",
+                "away": "kchiefs"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "s49",
+                "away": "lrams"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "wcommanders",
+                "away": "dcowboys"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "cpanthers",
+                "away": "tbuccaneers"
+            },
+            {
+                "date": "Sunday, January 7, 2024 at TBD est",
+                "home": "bravens",
+                "away": "psteelers"
+            }
+        ]
+    }
+]
