@@ -25,10 +25,6 @@ export namespace Components {
     }
     interface FtbInfo {
     }
-    interface FtbMatch {
-    }
-    interface FtbScheduleLeague {
-    }
     interface FtbScheduleTeam {
         "even": boolean;
         "team": Standing;
@@ -36,8 +32,6 @@ export namespace Components {
     interface FtbSettings {
     }
     interface FtbStandings {
-    }
-    interface FtbTeam {
     }
     interface FtbWeek {
         "teams": TeamsList;
@@ -71,18 +65,6 @@ declare global {
         prototype: HTMLFtbInfoElement;
         new (): HTMLFtbInfoElement;
     };
-    interface HTMLFtbMatchElement extends Components.FtbMatch, HTMLStencilElement {
-    }
-    var HTMLFtbMatchElement: {
-        prototype: HTMLFtbMatchElement;
-        new (): HTMLFtbMatchElement;
-    };
-    interface HTMLFtbScheduleLeagueElement extends Components.FtbScheduleLeague, HTMLStencilElement {
-    }
-    var HTMLFtbScheduleLeagueElement: {
-        prototype: HTMLFtbScheduleLeagueElement;
-        new (): HTMLFtbScheduleLeagueElement;
-    };
     interface HTMLFtbScheduleTeamElement extends Components.FtbScheduleTeam, HTMLStencilElement {
     }
     var HTMLFtbScheduleTeamElement: {
@@ -101,12 +83,6 @@ declare global {
         prototype: HTMLFtbStandingsElement;
         new (): HTMLFtbStandingsElement;
     };
-    interface HTMLFtbTeamElement extends Components.FtbTeam, HTMLStencilElement {
-    }
-    var HTMLFtbTeamElement: {
-        prototype: HTMLFtbTeamElement;
-        new (): HTMLFtbTeamElement;
-    };
     interface HTMLFtbWeekElement extends Components.FtbWeek, HTMLStencilElement {
     }
     var HTMLFtbWeekElement: {
@@ -122,12 +98,9 @@ declare global {
     interface HTMLElementTagNameMap {
         "ftb-app": HTMLFtbAppElement;
         "ftb-info": HTMLFtbInfoElement;
-        "ftb-match": HTMLFtbMatchElement;
-        "ftb-schedule-league": HTMLFtbScheduleLeagueElement;
         "ftb-schedule-team": HTMLFtbScheduleTeamElement;
         "ftb-settings": HTMLFtbSettingsElement;
         "ftb-standings": HTMLFtbStandingsElement;
-        "ftb-team": HTMLFtbTeamElement;
         "ftb-week": HTMLFtbWeekElement;
         "my-component": HTMLMyComponentElement;
     }
@@ -137,10 +110,6 @@ declare namespace LocalJSX {
     }
     interface FtbInfo {
     }
-    interface FtbMatch {
-    }
-    interface FtbScheduleLeague {
-    }
     interface FtbScheduleTeam {
         "even"?: boolean;
         "team"?: Standing;
@@ -148,8 +117,6 @@ declare namespace LocalJSX {
     interface FtbSettings {
     }
     interface FtbStandings {
-    }
-    interface FtbTeam {
     }
     interface FtbWeek {
         "teams"?: TeamsList;
@@ -172,12 +139,9 @@ declare namespace LocalJSX {
     interface IntrinsicElements {
         "ftb-app": FtbApp;
         "ftb-info": FtbInfo;
-        "ftb-match": FtbMatch;
-        "ftb-schedule-league": FtbScheduleLeague;
         "ftb-schedule-team": FtbScheduleTeam;
         "ftb-settings": FtbSettings;
         "ftb-standings": FtbStandings;
-        "ftb-team": FtbTeam;
         "ftb-week": FtbWeek;
         "my-component": MyComponent;
     }
@@ -188,12 +152,9 @@ declare module "@stencil/core" {
         interface IntrinsicElements {
             "ftb-app": LocalJSX.FtbApp & JSXBase.HTMLAttributes<HTMLFtbAppElement>;
             "ftb-info": LocalJSX.FtbInfo & JSXBase.HTMLAttributes<HTMLFtbInfoElement>;
-            "ftb-match": LocalJSX.FtbMatch & JSXBase.HTMLAttributes<HTMLFtbMatchElement>;
-            "ftb-schedule-league": LocalJSX.FtbScheduleLeague & JSXBase.HTMLAttributes<HTMLFtbScheduleLeagueElement>;
             "ftb-schedule-team": LocalJSX.FtbScheduleTeam & JSXBase.HTMLAttributes<HTMLFtbScheduleTeamElement>;
             "ftb-settings": LocalJSX.FtbSettings & JSXBase.HTMLAttributes<HTMLFtbSettingsElement>;
             "ftb-standings": LocalJSX.FtbStandings & JSXBase.HTMLAttributes<HTMLFtbStandingsElement>;
-            "ftb-team": LocalJSX.FtbTeam & JSXBase.HTMLAttributes<HTMLFtbTeamElement>;
             "ftb-week": LocalJSX.FtbWeek & JSXBase.HTMLAttributes<HTMLFtbWeekElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }

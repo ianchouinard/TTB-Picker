@@ -1,5 +1,6 @@
 import { Config } from '@stencil/core';
 import { sass } from '@stencil/sass';
+import path from 'path';
 
 export const config: Config = {
   namespace: 'ftb',
@@ -13,7 +14,9 @@ export const config: Config = {
   plugins: [
     sass({
       injectGlobalPaths: [
-        'src/globals/vars.scss'
+        path
+          .resolve(__dirname, `src/global/vars.scss`)
+          .replace(/\\/g, '/')
       ]
     })
   ],
