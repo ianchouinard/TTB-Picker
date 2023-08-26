@@ -11,3 +11,17 @@
     margin-bottom: 8px;
   }
 }
+
+@media screen and (max-width: $mobile) {
+  .standings {
+    .standing-wrapper {
+      max-width: calc(100vw - 80px);
+      overflow-x: auto;
+      margin-bottom: 25px;
+    }
+    .standing-section {
+      min-width: 900px;
+      margin-bottom: 0;
+    }
+  }
+}

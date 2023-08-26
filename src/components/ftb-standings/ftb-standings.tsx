@@ -185,101 +185,125 @@ export class FtbStandings {
 
         {this.view == 'division' && (
           <div class="div-view">
-            <div class="standing-section">
-              <div class="standing-header">AFC East</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'AFC' && t.div == 'East')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">AFC East</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'AFC' && t.div == 'East')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
 
-            <div class="standing-section">
-              <div class="standing-header">AFC North</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'AFC' && t.div == 'North')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">AFC North</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'AFC' && t.div == 'North')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
 
-            <div class="standing-section">
-              <div class="standing-header">AFC South</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'AFC' && t.div == 'South')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">AFC South</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'AFC' && t.div == 'South')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
 
-            <div class="standing-section">
-              <div class="standing-header">AFC West</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'AFC' && t.div == 'West')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">AFC West</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'AFC' && t.div == 'West')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
 
-            <div class="standing-section">
-              <div class="standing-header">NFC East</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'NFC' && t.div == 'East')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">NFC East</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'NFC' && t.div == 'East')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
 
-            <div class="standing-section">
-              <div class="standing-header">NFC North</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'NFC' && t.div == 'North')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">NFC North</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'NFC' && t.div == 'North')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
 
-            <div class="standing-section">
-              <div class="standing-header">NFC South</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'NFC' && t.div == 'South')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">NFC South</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'NFC' && t.div == 'South')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
 
-            <div class="standing-section">
-              <div class="standing-header">NFC West</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'NFC' && t.div == 'West')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">NFC West</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'NFC' && t.div == 'West')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
+            
           </div>
         )}
 
         {this.view == 'conference' && (
           <div class="div-view">
-            <div class="standing-section">
-              <div class="standing-header">AFC</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'AFC')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">AFC</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'AFC')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
 
-            <div class="standing-section">
-              <div class="standing-header">NFC</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.filter(t => (t.conf == 'NFC')).map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
+            <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">NFC</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.filter(t => (t.conf == 'NFC')).map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
             </div>
+            
           </div>
         )}
 
         {this.view == 'league' && (
           <div class="div-view">
-            <div class="standing-section">
-              <div class="standing-header">NFL</div>
-              <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
-              {this.teams.map((team, index) => (
-                <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
-              ))}
-            </div>
+             <div class="standing-wrapper">
+              <div class="standing-section">
+                <div class="standing-header">NFL</div>
+                <div class="standing-cols" innerHTML={this.showColumnHeader()}></div>
+                {this.teams.map((team, index) => (
+                  <ftb-schedule-team team={team} even={index % 2 == 0}></ftb-schedule-team>
+                ))}
+              </div>
+             </div>
           </div>
         )}
       </div>

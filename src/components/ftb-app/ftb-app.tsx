@@ -18,6 +18,7 @@ export class FtbApp {
   public teams: TeamsList;
   @State() isReady: boolean;
   @State() currentView: string = 'info';
+  @State() mobileNavOpen: boolean = false;
 
   componentWillLoad() {
     this.setup();
@@ -157,6 +158,7 @@ export class FtbApp {
   @Method()
   async setView(view: string) {
     this.currentView = view;
+    this.mobileNavOpen = false;
     window.scrollTo(0, 0);
   }
 
@@ -166,6 +168,10 @@ export class FtbApp {
       const weekEntry = this.schedule.filter(s => s.title == w.innerHTML)[0];
       w.classList[weekEntry.completed ? 'add' : 'remove']('completed');
     });
+  }
+
+  toggleMobileNav() {
+    this.mobileNavOpen = !this.mobileNavOpen;
   }
 
   componentDidRender() {
@@ -178,13 +184,23 @@ export class FtbApp {
         {this.isReady && (
           <div class="app">
 
+            <div
+              class={`mobile-nav ${this.mobileNavOpen ? 'open' : ''}`}
+              role='button'
+              tabIndex={0}
+              onClick={() => {this.toggleMobileNav()}}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
             <div class="meta">
               FTB Picker
               <span>2023 / 2024</span>
             </div>
 
             <div>
-              <div class="nav">
+              <div class={`nav ${this.mobileNavOpen ? 'open' : ''}`}>
                 <div class="top-nav">
                   <div
                     role="button"

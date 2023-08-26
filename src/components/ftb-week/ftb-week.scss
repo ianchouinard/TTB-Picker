@@ -82,3 +82,21 @@
   }
 
 }
+
+@media screen and (max-width: $mobile) {
+  .week {
+    .matches {
+      display: block;
+
+      .match {
+        &__contest {
+          display: block;
+
+          span + div {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
