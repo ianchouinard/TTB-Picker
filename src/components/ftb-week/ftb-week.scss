@@ -92,6 +92,10 @@
         &__contest {
           display: block;
 
+          & > span {
+            margin-left: 20px;
+          }
+
           span + div {
             margin-top: 10px;
           }

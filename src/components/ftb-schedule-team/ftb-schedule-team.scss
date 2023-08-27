@@ -95,3 +95,16 @@
     }
   }
 }
+
+@media screen and (max-width: $mobile) {
+  .standing-details {
+
+    & > div {
+      font-size: .7rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
