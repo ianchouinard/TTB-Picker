@@ -137,6 +137,7 @@ export class FtbApp {
     }
 
     match.winner = winningTeamCode;
+    match.decided = true;
 
     const undecidedMatchesInWeek = weekEntry.games.filter(g => (!g.winner || g.winner == ''));
 
@@ -196,7 +197,7 @@ export class FtbApp {
 
             <div class="meta">
               FTB Picker
-              <span>2023 / 2024</span>
+              <span>2024 / 2025</span>
             </div>
 
             <div>

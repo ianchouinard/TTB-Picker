@@ -12,7 +12,7 @@ export class FtbInfo {
     return (
       <div class="info panel">
         <h2>FTB Picker</h2>
-        <h3>2023 / 2024 Season</h3>
+        <h3>2024 / 2025 Season</h3>
         <div class="spacer"></div>
         <p>FTB Picker allows you to pick the winners for each game during the current nfl season then view standings.</p>
 

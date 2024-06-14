@@ -50,7 +50,8 @@ export class FtbStandings {
             week: s.title,
             opponent: teams[game[0].home == t ? game[0].away : game[0].home].title,
             win: game[0].winner == t,
-            isHome: game[0].home == t
+            isHome: game[0].home == t,
+            decided: game[0].decided
           });
         }
       });

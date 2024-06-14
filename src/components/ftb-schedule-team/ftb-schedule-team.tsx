@@ -58,7 +58,7 @@ export class FtbScheduleTeam {
               <div>
                 <div class="detail-week">{ detail.week }</div>
                 <div>
-                  <span class={detail.win ? 'win' : 'loss'}>{detail.win ? 'Win' : 'Loss'}</span> &nbsp;
+                  {detail.decided ? (<span class={detail.win ? 'win' : 'loss'}>{detail.win ? 'Win' : 'Loss'}</span>) : (<span>Undecided</span>)} &nbsp;
                   {detail.isHome ? 'against' : '@'} &nbsp;
                   <span>{ detail.opponent }</span>
                 </div>

@@ -13,8 +13,8 @@ export class FtbSettings {
   @State() scheduleData: string;
 
   componentWillLoad() {
-    this.teamData = localStorage.getItem('schedule');
-    this.scheduleData = localStorage.getItem('teams');
+    this.teamData = localStorage.getItem('teams');
+    this.scheduleData = localStorage.getItem('schedule');
   }
 
   reset() {
